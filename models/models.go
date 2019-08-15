@@ -1,8 +1,10 @@
 package models
 
+import "github.com/gobuffalo/pop"
+
 // DB is a connection to your database to be used
 // throughout your application.
-// var DB *pop.Connection
+var DB *pop.Connection
 
 func init() {
 	// var err error
