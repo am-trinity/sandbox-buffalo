@@ -89,7 +89,7 @@ func (h *Hub) Run() {
 			}
 		case message := <-h.broadcast:
 			for client := range h.clients {
-				if message.IsAvailableFor(client) {
+				if !message.IsAvailableFor(client) {
 					continue
 				}
 				data, err := formatMessage(message)
