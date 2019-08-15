@@ -8,7 +8,7 @@ CURRENT_PATH="${ROOT_PATH}/current"
 SHARED_PATH="${ROOT_PATH}/shared"
 
 SHARED_DIRS=("log" "tmp/sockets")
-SHARED_FILES=(".env" "config/database.yml")
+SHARED_FILES=()
 
 notify() {
     curl -X POST -d "{\"content\": \"${1}\"}" ${DISCORD_URI}
