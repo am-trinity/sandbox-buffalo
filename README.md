@@ -1,8 +1,8 @@
 # Welcome to Buffalo!
 
-Buffalo sandbox application.
+Buffalo sandbox/example application.
 
-echo.go - WebSocket broadcasting echo service.
+echo.go - WebSocket broadcasting echo service.  
 deploy.sh - build'n'deploy script.
 
 ## Database Setup
