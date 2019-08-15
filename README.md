@@ -1,6 +1,8 @@
 # Welcome to Buffalo!
 
-Thank you for choosing Buffalo for your web development needs.
+Buffalo sandbox application.
+
+echo.go - implemented PoC WebSocket broadcasting echo service.
 
 ## Database Setup
 
